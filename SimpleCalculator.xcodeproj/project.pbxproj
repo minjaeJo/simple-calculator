@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B51EFA6B21F71078009E5C7F /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51EFA6A21F71078009E5C7F /* CalculatorModel.swift */; };
 		B5217CD821F6F9210028936C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5217CD721F6F9210028936C /* AppDelegate.swift */; };
 		B5217CDA21F6F9210028936C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5217CD921F6F9210028936C /* ViewController.swift */; };
 		B5217CDD21F6F9210028936C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5217CDB21F6F9210028936C /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B51EFA6A21F71078009E5C7F /* CalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
 		B5217CD421F6F9210028936C /* SimpleCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5217CD721F6F9210028936C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5217CD921F6F9210028936C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				B5217CDB21F6F9210028936C /* Main.storyboard */,
 				B5217D0521F6F9500028936C /* Supports */,
 				B5217D0621F6FE890028936C /* RoundButton.swift */,
+				B51EFA6A21F71078009E5C7F /* CalculatorModel.swift */,
 			);
 			path = SimpleCalculator;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				B5217D0721F6FE890028936C /* RoundButton.swift in Sources */,
 				B5217CDA21F6F9210028936C /* ViewController.swift in Sources */,
 				B5217CD821F6F9210028936C /* AppDelegate.swift in Sources */,
+				B51EFA6B21F71078009E5C7F /* CalculatorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
