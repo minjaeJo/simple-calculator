@@ -100,9 +100,7 @@
 				B5217CD721F6F9210028936C /* AppDelegate.swift */,
 				B5217CD921F6F9210028936C /* ViewController.swift */,
 				B5217CDB21F6F9210028936C /* Main.storyboard */,
-				B5217CDE21F6F9230028936C /* Assets.xcassets */,
-				B5217CE021F6F9230028936C /* LaunchScreen.storyboard */,
-				B5217CE321F6F9230028936C /* Info.plist */,
+				B5217D0521F6F9500028936C /* Supports */,
 			);
 			path = SimpleCalculator;
 			sourceTree = "<group>";
@@ -123,6 +121,16 @@
 				B5217CF921F6F9230028936C /* Info.plist */,
 			);
 			path = SimpleCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		B5217D0521F6F9500028936C /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				B5217CDE21F6F9230028936C /* Assets.xcassets */,
+				B5217CE321F6F9230028936C /* Info.plist */,
+				B5217CE021F6F9230028936C /* LaunchScreen.storyboard */,
+			);
+			path = Supports;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,7 +442,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K557UV74SU;
-				INFOPLIST_FILE = SimpleCalculator/Info.plist;
+				INFOPLIST_FILE = SimpleCalculator/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K557UV74SU;
-				INFOPLIST_FILE = SimpleCalculator/Info.plist;
+				INFOPLIST_FILE = SimpleCalculator/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
